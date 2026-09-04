@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>نهجا | NAHJA Real Estate</title>
+
+    <meta
+        name="description"
+        content="نهجا للعقارات - عقارات مختارة في مدينة جدة."
+    >
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="icon" type="image/png" href="./disigns/logotop.png">
+
+    <link rel="apple-touch-icon" href="./disigns/logotop.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="fal.css">
+</head>
+
+
+<body>
+
+
+    <!-- =============================================
+         LOADING SCREEN
+    ============================================== -->
+
+    <div class="loader" id="loader">
+
+        <img
+            src="./disigns/NAHJA.png"
+            alt="نهجا"
+            class="loader-logo-image"
+        >
+
+        <div class="loader-line">
+            <span></span>
+        </div>
+
+        <p>NAHJA REAL ESTATE</p>
+
+    </div>
+
+
+
+    <!-- =============================================
+         BACKGROUND CANVAS
+    ============================================== -->
+
+    <div class="visual-stage">
+
+        <canvas id="sequenceCanvas"></canvas>
+
+        <div class="background-overlay"></div>
+
+        <div class="noise"></div>
+
+    </div>
+
+
+
+    <!-- =============================================
+         NAVBAR
+    ============================================== -->
+
+    <header class="navbar">
+
+        <a href="#hero" class="logo">
+
+            <img
+                src="./disigns/NAHJA.png"
+                alt="نهجا"
+                class="navbar-logo-image"
+            >
+
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a href="#about">
+                من نحن
+            </a>
+
+            <a href="#properties">
+                العقارات
+            </a>
+
+            <a href="#areas">
+                الأحياء
+            </a>
+
+            <a href="#services">
+                خدماتنا
+            </a>
+
+        </nav>
+
+
+        <a href="#contact" class="contact-nav">
+            تواصل معنا
+        </a>
+
+    </header>
+
+
+
+    <!-- =============================================
+         SCROLL PROGRESS
+    ============================================== -->
+
+    <div class="scroll-progress">
+
+        <div
+            class="scroll-progress-fill"
+            id="scrollProgress"
+        ></div>
+
+    </div>
+
+
+
+    <!-- =============================================
+         WEBSITE
+    ============================================== -->
+
+    <main>
+
+
+        <!-- =========================================
+             SECTION 1 - HERO
+        ========================================== -->
+
+        <section
+            class="scene hero"
+            id="hero"
+        >
+
+            <span class="scene-number">
+                01
+            </span>
+
+
+            <div class="hero-content">
+
+                <span class="small-title">
+                    عقارات جدة
+                </span>
+
+
+                <div class="hero-brand">
+
+                    <img
+                        src="./disigns/NAHJA.png"
+                        alt="نهجا"
+                        class="hero-logo-image"
+                    >
+
+                    <span class="hero-brand-location">
+                        جدة
+                    </span>
+
+                </div>
+
+
+                <h2>
+                    عقارك يبدأ
+                    <br>
+                    من المكان الصحيح.
+                </h2>
+
+
+                <p>
+
+                    شركة عقارية متخصصة في تسويق العقارات
+                    بمدينة جدة.
+
+                    نبحث عن المساحات التي تجمع بين الموقع المناسب،
+                    جودة السكن، الراحة، والقيمة الحقيقية.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#properties"
+                        class="btn btn-main"
+                    >
+                        استكشف العقارات
+                    </a>
+
+
+                    <a
+                        href="#contact"
+                        class="btn btn-glass"
+                    >
+                        تواصل معنا
+                    </a>
+
+                </div>
+
+
+
+            </div>
+
+
+            <a
+                href="#about"
+                class="scroll-indicator"
+            >
+
+                <span>
+                    اكتشف
+                </span>
+
+                <div class="mouse">
+
+                    <div></div>
+
+                </div>
+
+            </a>
+
+        </section>
+
+
+
+        <!-- =========================================
+             SECTION 2 - ABOUT
+        ========================================== -->
+
+        <section
+            class="scene"
+            id="about"
+        >
+
+            <span class="scene-number">
+                02
+            </span>
+
+
+            <div class="glass content-box">
+
+                <span class="section-label">
+                    من نحن
+                </span>
+
+
+                <h2 class="main-heading">
+
+                    جدة...
+
+                    <span>
+                        نعرفها حيًا بحي.
+                    </span>
+
+                </h2>
+
+
+                <p class="description">
+
+                    في نهجا لا نبحث لك عن عقار فقط،
+                    بل عن المكان الذي يناسب أسلوب حياتك.
+
+                    نركز على العقارات المختارة
+                    في مدينة جدة، ونساعدك في مقارنة الخيارات
+                    واختيار العقار المناسب من حيث الموقع،
+                    المساحة والميزانية.
+
+                </p>
+
+
+                <div class="features">
+
+                    <div>
+
+                        <strong>
+                            الموقع
+                        </strong>
+
+                        <span>
+                            خيارات في أحياء مختارة
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            الجودة
+                        </strong>
+
+                        <span>
+                            وحدات منتقاة بعناية
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            السهولة
+                        </strong>
+
+                        <span>
+                            رحلة بحث أبسط
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             SECTION 3 - PROPERTIES
+        ========================================== -->
+
+        <section
+            class="scene property-section"
+            id="properties"
+        >
+
+            <span class="scene-number">
+                03
+            </span>
+
+
+            <div class="property-container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        العقارات
+                    </span>
+
+
+                    <h2>
+
+                        عقارات مختارة
+
+                        <span>
+                            في جدة.
+                        </span>
+
+                    </h2>
+
+
+                    <p>
+
+                        مجموعة مختارة من العقارات في أحياء جدة،
+                        ننتقيها بعناية لتمنحك خيارات متنوعة
+                        تناسب احتياجك وميزانيتك وأسلوب حياتك.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- SEARCH -->
+
+                <form
+                    class="property-search glass"
+                    data-type="properties"
+                >
+
+
+                    <div class="search-group">
+
+                        <label>
+                            الحي
+                        </label>
+
+                        <select name="area">
+
+                            <option value="all">
+                                جميع الأحياء
+                            </option>
+
+                            <option value="الزهراء">
+                                الزهراء
+                            </option>
+
+                            <option value="السلامة">
+                                السلامة
+                            </option>
+
+                            <option value="الشاطئ">
+                                الشاطئ
+                            </option>
+
+                            <option value="الروضة">
+                                الروضة
+                            </option>
+
+                            <option value="الحمراء">
+                                الحمراء
+                            </option>
+
+                            <option value="أبحر">
+                                أبحر
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <div class="search-group">
+
+                        <label>
+                            نوع العقار
+                        </label>
+
+                        <select
+                            name="property_type"
+                            id="propertyType"
+                        >
+
+                            <option value="all">
+                                جميع العقارات
+                            </option>
+
+                            <option value="villa">
+                                فيلا
+                            </option>
+
+                            <option value="apartment">
+                                شقة
+                            </option>
+
+                            <option value="building">
+                                عمارة
+                            </option>
+
+                            <option value="land">
+                                أرض
+                            </option>
+
+                            <option value="shop">
+                                محلات
+                            </option>
+
+                            <option value="studio">
+                                استديو
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!--
+                        يتم إنشاء الفلاتر الإضافية هنا
+                        حسب نوع العقار المختار عن طريق JavaScript
+                    -->
+                    <div
+                        class="dynamic-filters"
+                        id="dynamicFilters"
+                    ></div>
+
+
+                    <button type="submit">
+                        بحث
+                    </button>
+
+                </form>
+
+
+
+                <!-- CARDS -->
+
+                <div class="property-grid">
+
+
+                    <article
+                        class="property-card glass"
+                        data-area="الزهراء"
+                        data-property-type="villa"
+                        data-rooms="5"
+                        data-size="420"
+                        data-age="3"
+                        data-subtype=""
+                        data-price="1800000"
+                    >
+
+                        <div class="card-image">
+
+                            <span>
+                                فيلا
+                            </span>
+
+                        </div>
+
+
+                        <div class="card-content">
+
+                            <small>
+                                حي الزهراء
+                            </small>
+
+                            <h3>
+                                فيلا عصرية
+                            </h3>
+
+                            <div class="property-info">
+
+                                <span>5 غرف</span>
+                                <span>420 م²</span>
+                                <span>عمر العقار 3 سنوات</span>
+
+                            </div>
+
+                            <strong>
+                                1,800,000 ريال
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article
+                        class="property-card glass"
+                        data-area="السلامة"
+                        data-property-type="apartment"
+                        data-rooms="3"
+                        data-size="140"
+                        data-age="2"
+                        data-subtype=""
+                        data-price="850000"
+                    >
+
+                        <div class="card-image">
+
+                            <span>
+                                شقة
+                            </span>
+
+                        </div>
+
+
+                        <div class="card-content">
+
+                            <small>
+                                حي السلامة
+                            </small>
+
+                            <h3>
+                                شقة حديثة
+                            </h3>
+
+                            <div class="property-info">
+
+                                <span>3 غرف</span>
+                                <span>140 م²</span>
+                                <span>عمر العقار سنتان</span>
+
+                            </div>
+
+                            <strong>
+                                850,000 ريال
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article
+                        class="property-card studio glass"
+                        data-area="الحمراء"
+                        data-property-type="studio"
+                        data-rooms="1"
+                        data-size="55"
+                        data-age="1"
+                        data-subtype=""
+                        data-price="420000"
+                    >
+
+                        <div class="card-image">
+
+                            <span>
+                                استديو
+                            </span>
+
+                        </div>
+
+
+                        <div class="card-content">
+
+                            <small>
+                                حي الحمراء
+                            </small>
+
+                            <h3>
+                                استديو قريب من البحر
+                            </h3>
+
+                            <div class="property-info">
+
+                                <span>55 م²</span>
+                                <span>جاهز للسكن</span>
+
+                            </div>
+
+                            <strong>
+                                420,000 ريال
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <p class="search-result"></p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             SECTION 4 - AREAS
+        ========================================== -->
+
+        <section
+            class="scene"
+            id="areas"
+        >
+
+            <span class="scene-number">
+                04
+            </span>
+
+
+            <div class="glass content-box">
+
+                <span class="section-label">
+                    أحياء جدة
+                </span>
+
+
+                <h2 class="main-heading">
+
+                    لأن اختيار الحي
+
+                    <span>
+                        لا يقل أهمية عن العقار.
+                    </span>
+
+                </h2>
+
+
+                <p class="description">
+
+                    استكشف العقارات حسب الحي
+                    وابحث عن الموقع الأقرب إلى عملك،
+                    حياتك، والوجهات التي تهمك.
+
+                </p>
+
+
+                <div class="areas-grid">
+
+                    <a href="#properties">
+                        <strong>الشاطئ</strong>
+                        <span>استكشف ←</span>
+                    </a>
+
+
+                    <a href="#properties">
+                        <strong>الزهراء</strong>
+                        <span>استكشف ←</span>
+                    </a>
+
+
+                    <a href="#properties">
+                        <strong>السلامة</strong>
+                        <span>استكشف ←</span>
+                    </a>
+
+
+                    <a href="#properties">
+                        <strong>الروضة</strong>
+                        <span>استكشف ←</span>
+                    </a>
+
+
+                    <a href="#properties">
+                        <strong>الحمراء</strong>
+                        <span>استكشف ←</span>
+                    </a>
+
+
+                    <a href="#properties">
+                        <strong>أبحر</strong>
+                        <span>استكشف ←</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             SECTION 5 - SERVICES
+        ========================================== -->
+
+        <section
+            class="scene"
+            id="services"
+        >
+
+            <span class="scene-number">
+                05
+            </span>
+
+
+            <div class="services-container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        خدماتنا
+                    </span>
+
+
+                    <h2>
+
+                        نختصر عليك
+
+                        <span>
+                            رحلة البحث.
+                        </span>
+
+                    </h2>
+
+                </div>
+
+
+
+                <div class="services-grid">
+
+
+                    <article class="service-card glass">
+
+                        <span>
+                            01
+                        </span>
+
+                        <h3>
+                            البحث عن عقار
+                        </h3>
+
+                        <p>
+                            نساعدك في العثور على خيارات
+                            تناسب احتياجك وميزانيتك.
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="service-card glass">
+
+                        <span>
+                            02
+                        </span>
+
+                        <h3>
+                            عرض عقارك
+                        </h3>
+
+                        <p>
+                            نساعد الملاك في عرض وتسويق
+                            الوحدات بطريقة احترافية.
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="service-card glass">
+
+                        <span>
+                            03
+                        </span>
+
+                        <h3>
+                            تنسيق المعاينة
+                        </h3>
+
+                        <p>
+                            حدد العقار المناسب وسنتولى
+                            تنسيق موعد المعاينة.
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="service-card glass">
+
+                        <span>
+                            04
+                        </span>
+
+                        <h3>
+                            استشارة عقارية
+                        </h3>
+
+                        <p>
+                            نقارن الخيارات معك للوصول
+                            إلى القرار الأنسب.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             SECTION 6 - CONTACT
+        ========================================== -->
+
+        <section
+            class="scene contact-section"
+            id="contact"
+        >
+
+            <span class="scene-number">
+                06
+            </span>
+
+
+            <div class="contact-container">
+
+
+                <div class="contact-intro">
+
+                    <span class="section-label">
+                        تواصل معنا
+                    </span>
+
+
+                    <h2>
+
+                        خلّنا نجد لك
+
+                        <span>
+                            المكان المناسب.
+                        </span>
+
+                    </h2>
+
+
+                    <p>
+
+                        أخبرنا بما تبحث عنه،
+                        ودع فريق نهجا يساعدك
+                        في الوصول إلى الخيارات المناسبة.
+
+                    </p>
+
+
+                    <div class="direct-links">
+
+
+                        <a href="#">
+                            واتساب
+                        </a>
+
+                        <a
+                         href="https://mail.google.com/mail/?view=cm&fs=1&to=nahja.estate@gmail.com&su=استفسار%20عقاري%20-%20نهجا"
+                         target="_blank"
+                        rel="noopener noreferrer">
+                           البريد الإلكتروني
+                         </a>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- CONTACT FORM -->
+
+                <form
+                    class="contact-form glass"
+                    action="https://formspree.io/f/xdeoeoyv"
+                    method="POST"
+                >
+
+
+                    <div class="form-title">
+
+                        <h3>
+                            ابدأ طلبك
+                        </h3>
+
+                        <span>
+                            سنعود إليك في أقرب وقت.
+                        </span>
+
+                    </div>
+
+
+
+                    <div class="form-row">
+
+
+                        <div class="input-group">
+
+                            <label>
+                                الاسم
+                            </label>
+
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="اكتب اسمك"
+                                required
+                            >
+
+                        </div>
+
+
+
+                        <div class="input-group">
+
+                            <label>
+                                رقم الجوال
+                            </label>
+
+                            <input
+                                type="tel"
+                                name="phone"
+                                placeholder="05xxxxxxxx"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="form-row">
+
+
+                        <div class="input-group">
+
+                            <label>
+                                نوع الطلب
+                            </label>
+
+                            <select
+                                name="enquiry_type"
+                                required
+                            >
+
+                                <option value="">
+                                    اختر
+                                </option>
+
+                                <option value="Rent">
+                                    إيجار
+                                </option>
+
+                                <option value="Purchase">
+                                    شراء
+                                </option>
+
+                                <option value="Sell">
+                                    عرض عقار
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+
+                        <div class="input-group">
+
+                            <label>
+                                نوع العقار
+                            </label>
+
+                            <select name="property_type">
+
+                                <option value="Villa">
+                                    فيلا
+                                </option>
+
+                                <option value="Apartment">
+                                    شقة
+                                </option>
+
+                                <option value="Building">
+                                    عمارة
+                                </option>
+
+                                <option value="Land">
+                                    أرض
+                                </option>
+
+                                <option value="Shop">
+                                    محلات
+                                </option>
+
+                                <option value="Studio">
+                                    استديو
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="form-row">
+
+
+                        <div class="input-group">
+
+                            <label>
+                                الحي
+                            </label>
+
+                            <input
+                                type="text"
+                                name="area"
+                                placeholder="مثال: الشاطئ"
+                            >
+
+                        </div>
+
+
+
+                        <div class="input-group">
+
+                            <label>
+                                الميزانية
+                            </label>
+
+                            <input
+                                type="number"
+                                name="budget"
+                                placeholder="ريال"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="input-group">
+
+                        <label>
+                            تفاصيل إضافية
+                        </label>
+
+                        <textarea
+                            name="message"
+                            rows="4"
+                            placeholder="اكتب لنا ما الذي تبحث عنه..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        class="send-button"
+                        type="submit"
+                    >
+
+                        <span>
+                            إرسال الطلب
+                        </span>
+
+                        <span>
+                            ←
+                        </span>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <footer>
+
+                <span>
+                    © 2026 نهجا
+                </span>
+
+                <span>
+                    NAHJA REAL ESTATE
+                </span>
+
+            </footer>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="fal.js"></script>
+
+</body>
+
+</html>
